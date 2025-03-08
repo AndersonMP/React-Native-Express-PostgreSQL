@@ -27,6 +27,10 @@ npm install
     "back": "node backend/app.js"
   }
 ```
+* Inicar Proyecto Expo
+```sh
+npx expo start --tunnel
+```
 * Configurar PostgreSQL
 - C:\Program Files\PostgreSQL\17\data
 - Archivo pg_hba.conf
