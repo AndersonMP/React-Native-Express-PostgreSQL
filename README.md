@@ -17,6 +17,10 @@ npx create-expo-app@latest projectName --template blank
     "pg": "^8.13.3"
 }
 ```
+* Descargar las dependencias
+```sh
+npm install
+```
 * Script para inicar el backend
 ```sh
 "scripts": {
