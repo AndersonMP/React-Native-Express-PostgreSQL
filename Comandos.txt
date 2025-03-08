@@ -1,0 +1,28 @@
+* React-Native-Expo
+npx create-expo-app@latest projectName --template blank
+
+* Script back
+"back": "node backend/app.js"
+
+* Dependecias de package.json
+"dependencies": {
+    "expo": "~52.0.37",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.7",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native-stack": "^7.2.0",
+    "@rneui/base": "^4.0.0-rc.7",
+    "@rneui/themed": "^4.0.0-rc.8",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "pg": "^8.13.3",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0"
+  },
+
+* Configurar PostgreSQL
+- C:\Program Files\PostgreSQL\17\data
+- Archivo pg_hba.conf
+- Agregar esta línea según la ipv4
+host    all             all             192.168.100.1/24                 md5
